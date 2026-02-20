@@ -184,7 +184,16 @@ footer{
 }
 .last-content{
   width: 320px;
+  /* display: flex; */
+}
+.logo-text{
   display: flex;
+  align-items: center;
+  padding-right: px;
+}
+.logo-text h1{
+  padding-bottom: px;
+  letter-spacing: 0%;
 }
 .last-content p{
   display: inline;
@@ -195,4 +204,23 @@ footer{
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
+  color: white;
+}
+.about-school h4{
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.about-school li{
+  list-style: none;
+  /* margin-right: 50px; */
+  margin-top: 15px;
+}
+.image-container{
+  display: flex;
+
+}
+.image{
+  margin-right: 10px;
 }
