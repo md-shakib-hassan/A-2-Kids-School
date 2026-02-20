@@ -182,7 +182,10 @@ main {
   width: 1100px;
   margin: 20px auto;
 }
-
+.stories-container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
 /* footer start from here */
 footer{
   background-color: #01ACFD;
