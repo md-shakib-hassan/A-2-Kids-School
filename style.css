@@ -194,15 +194,15 @@ main {
 
 .container {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr; /* big + 2 small columns */
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* big + 2 small columns */
   /* gap: 20px; */
 }
 
 .big .image-big{
-  width: 400px;
+  /* width: 400px; */
   grid-row: span 2;
   grid-column: span 2;   /* makes left card taller */
-  background: #eee;
+  background: #e73c3c;
 }
 .img{
   width: 100%;
@@ -210,7 +210,7 @@ main {
 }
 
 .small {
-  background: #523f3f;
+  background-color: #523f3f;
 }
 
 
