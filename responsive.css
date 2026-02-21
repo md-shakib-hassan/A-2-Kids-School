@@ -1,0 +1,66 @@
+@media  only screen and (max-width:420px)   {
+  body{
+    
+  } 
+
+  *{
+    box-sizing: border-box;
+  } 
+.logo-section{
+    border-bottom: 1px solid orange;
+}
+
+.logo-section ul{
+        display: none;
+}
+/* .over-view{
+    width: 380px;
+} */
+
+.logo-section{
+    width: 98%;
+}
+.display-none{
+    display: none;
+}
+.heading-section{
+    display: block;
+}
+.logo-image img{
+    
+}
+.heading-section img{
+    margin-left: 12px;
+    width: 94vw;
+}
+.heading-content h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+
+  width: 100%;
+  width: 380px;
+  /* width: 300px; */
+}
+.heading-content p {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  width: 380px;
+ /* width: 300px;  */
+}
+
+.content-btn {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  
+}
+
+}
