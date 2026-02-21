@@ -174,9 +174,14 @@ main {
   background-color: white;
 }
 
+
+
+
 /* our stories section start from here */
 .stories{
   background-image: url(assets/bg.png);
+  background: linear-gradient( to top, rgba(255, 158, 3, .3) 10%, white 90%);
+  to bottom, #DEF5FF 5%, white 30% 
 }
 .stories-container{
   width: 1100px;
@@ -190,36 +195,63 @@ main {
 }
 
 
-
-
-.container {
+.stories-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; /* big + 2 small columns */
-  /* gap: 20px; */
+  grid-template-columns: auto auto auto auto ; /* big + 2 small columns */
+  gap: 10px;
+  /* margin: 0px 10px; */
 }
 
-.big .image-big{
+.big {
   /* width: 400px; */
   grid-row: span 2;
   grid-column: span 2;   /* makes left card taller */
-  background: #e73c3c;
-}
-.img{
   width: 100%;
-  height: 100%;
+  /* height: auto; */
+}
+.stories-item .image{
+  width: 100%;
+  height: auto;
 }
 
-.small {
-  background-color: #523f3f;
+.small h6 {
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 20px;
 }
 
+.stories-item{
+  background-color: white;
+  border-radius: 16px;
+  
+}
+.stories-item img{
+  border-radius: 16px;
+  width: 100%;
+}
+
+.stories-item h5,p{
+  /* padding: 25px ; */
+}
+.stories-item h5,p{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  padding-bottom: 10px;
+}
+.stories-item p{
+  font-weight: 500;
+  font-size: 15px;
+  color: #666666;
+}
 
 
 
 
 
 .big .image-big{
-  width: 100px;
+  width: auto;
 }
 /* .big .image{
   width: 100%;
@@ -240,7 +272,7 @@ footer{
 
 .last{
   width: 1100px;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 .last-content{
   width: 320px;
@@ -256,7 +288,9 @@ footer{
   letter-spacing: 0%;
 }
 .last-content p{
-  display: inline;
+  /* display: inline; */
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .last-container{
